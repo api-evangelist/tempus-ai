@@ -1,0 +1,99 @@
+{
+  "info": {
+    "name": "Tempus AI",
+    "_postman_id": "tempus-ai-collection",
+    "description": "Tempus AI (NASDAQ: TEM) is a precision medicine company. As of this writing Tempus does not publish a self-serve, documented public developer API; its products (Lens, One, Hub, Next, ECG-AI, Pixel, xT/xR genomic profiling, Olivia) are delivered as enterprise and clinical SaaS via web apps and EHR integrations (HL7/FHIR). This collection therefore contains no API endpoints and instead links the public product documentation. It will be expanded if Tempus publishes a documented public API.",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Product Documentation (Informational)",
+      "item": [
+        {
+          "name": "Tempus Lens",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "https://www.tempus.com/life-sciences/lens/",
+              "protocol": "https",
+              "host": ["www", "tempus", "com"],
+              "path": ["life-sciences", "lens", ""]
+            },
+            "description": "Lens real-world multimodal data and agentic AI platform for life sciences. Licensed web application; no public API."
+          }
+        },
+        {
+          "name": "Tempus One",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "https://www.tempus.com/oncology/tempus-one/",
+              "protocol": "https",
+              "host": ["www", "tempus", "com"],
+              "path": ["oncology", "tempus-one", ""]
+            },
+            "description": "AI clinical assistant for oncology providers. No public API."
+          }
+        },
+        {
+          "name": "Tempus Hub",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "https://www.tempus.com/oncology/ai-apps-suite/",
+              "protocol": "https",
+              "host": ["www", "tempus", "com"],
+              "path": ["oncology", "ai-apps-suite", ""]
+            },
+            "description": "Smart physician platform for ordering tests and reviewing results. No public API."
+          }
+        },
+        {
+          "name": "Tempus Next",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "https://www.tempus.com/about-us/tempus-tech/next/",
+              "protocol": "https",
+              "host": ["www", "tempus", "com"],
+              "path": ["about-us", "tempus-tech", "next", ""]
+            },
+            "description": "AI-enabled care-gap identification. No public API."
+          }
+        },
+        {
+          "name": "Tempus EHR Integration",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "https://www.tempus.com/oncology/ehr-integration/",
+              "protocol": "https",
+              "host": ["www", "tempus", "com"],
+              "path": ["oncology", "ehr-integration", ""]
+            },
+            "description": "HL7 / FHIR and batch EHR integration provisioned per partner. Not a public API."
+          }
+        },
+        {
+          "name": "Tempus Genomic Profiling (xT / xR)",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "https://www.tempus.com/oncology/genomic-profiling/",
+              "protocol": "https",
+              "host": ["www", "tempus", "com"],
+              "path": ["oncology", "genomic-profiling", ""]
+            },
+            "description": "DNA / RNA NGS assays for oncology. Results returned via Hub and EHR, not a public API."
+          }
+        }
+      ]
+    }
+  ]
+}

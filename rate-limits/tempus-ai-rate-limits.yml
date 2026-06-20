@@ -1,0 +1,46 @@
+specification: API Commons Rate Limits
+specificationVersion: '0.1'
+schema: https://raw.githubusercontent.com/api-evangelist/interface-research/main/schema/api-commons.yml#/$defs/RateLimits
+provider: Tempus AI
+providerId: tempus-ai
+created: '2026-06-20'
+modified: '2026-06-20'
+reconciled: false
+tags:
+- Precision Medicine
+- Genomics
+- Healthcare
+- Molecular Diagnostics
+- Oncology
+- Real-World Data
+- AI
+- Rate Limiting
+- Quotas
+- Throttling
+description: >-
+  Tempus AI does not publish a public, self-serve developer API, and therefore
+  no public rate limits, quotas, or throttling policies are documented. Any
+  request limits or throughput constraints applicable to enterprise data
+  feeds, Lens platform usage, or EHR (HL7 / FHIR) integrations are defined per
+  contract within partner agreements and are not publicly available.
+notes: >-
+  No public 429 / throttling behavior is documented because no public API
+  endpoint is exposed. Reconcile only if Tempus publishes a documented public
+  API with stated rate limits.
+sources:
+- https://www.tempus.com/
+- https://www.tempus.com/oncology/ehr-integration/
+responseCodes:
+  throttled: see provider documentation
+limits:
+- name: API Rate Limits
+  scope: account
+  metric: requests
+  limit: not publicly documented
+  notes: No public API is offered; any limits are contract-specific.
+policies:
+- name: Contract-Defined Limits
+  description: Throughput and quota terms, where they exist, are set per enterprise / partner agreement and EHR integration, not via a public API tier.
+maintainers:
+- FN: Kin Lane
+  email: kin@apievangelist.com

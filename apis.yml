@@ -1,0 +1,137 @@
+aid: tempus-ai
+url: https://raw.githubusercontent.com/api-evangelist/tempus-ai/refs/heads/main/apis.yml
+name: Tempus AI
+kind: company
+description: >-
+  Tempus AI (NASDAQ: TEM) is a precision medicine company that has built
+  one of the world's largest libraries of de-identified clinical and molecular data,
+  paired with an operating system to make that data accessible for diagnostics and
+  research, starting with cancer. Its products span genomic profiling (xT / xR),
+  AI-enabled clinical tools (Hub, One, Next), the Lens real-world data and agentic
+  AI platform for life sciences, cardiology and radiology AI (ECG-AI, Pixel), and a
+  consumer health app (Olivia). Tempus does not currently publish a self-serve,
+  documented public developer API; integrations are delivered through enterprise and
+  EHR channels (HL7 / FHIR, e.g. Epic) under partner agreements.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
+tags:
+- Precision Medicine
+- Genomics
+- Healthcare
+- Molecular Diagnostics
+- Oncology
+- Real-World Data
+- AI
+created: '2026-06-20'
+modified: '2026-06-20'
+specificationVersion: '0.19'
+apis:
+- aid: tempus-ai:tempus-lens
+  name: Tempus Lens
+  tags:
+  - Real-World Data
+  - Life Sciences
+  - Agentic AI
+  - Multimodal Data
+  image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
+  humanURL: https://www.tempus.com/life-sciences/lens/
+  properties:
+  - url: https://www.tempus.com/life-sciences/lens/
+    type: Documentation
+  description: Lens is Tempus' real-world multimodal data and agentic AI platform for
+    life sciences and oncology drug development, providing exploration of one of the
+    world's largest de-identified clinical and molecular datasets (millions of
+    patient records). It is delivered as a web application at lens.tempus.ai under
+    enterprise agreement; no self-serve public API is documented.
+- aid: tempus-ai:tempus-one
+  name: Tempus One
+  tags:
+  - Clinical Assistant
+  - Oncology
+  - GenAI
+  image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
+  humanURL: https://www.tempus.com/oncology/tempus-one/
+  properties:
+  - url: https://www.tempus.com/oncology/tempus-one/
+    type: Documentation
+  description: Tempus One is an AI clinical assistant giving oncology providers voice
+    and text access to patient data, clinical-trial options, and treatment guidelines
+    at the point of care. It is surfaced inside Tempus applications and partner EHR
+    workflows; no public developer API is documented.
+- aid: tempus-ai:tempus-hub
+  name: Tempus Hub
+  tags:
+  - Provider Platform
+  - Test Ordering
+  - Results
+  image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
+  humanURL: https://www.tempus.com/oncology/ai-apps-suite/
+  properties:
+  - url: https://www.tempus.com/oncology/ai-apps-suite/
+    type: Documentation
+  description: Tempus Hub is the smart physician platform where providers order
+    diagnostic tests, get clinical context on a patient, and receive and review
+    testing results. Access is via the Hub web application and EHR integration; no
+    public developer API is documented.
+- aid: tempus-ai:tempus-next
+  name: Tempus Next
+  tags:
+  - Care Gap Identification
+  - Clinical AI
+  image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
+  humanURL: https://www.tempus.com/about-us/tempus-tech/next/
+  properties:
+  - url: https://www.tempus.com/about-us/tempus-tech/next/
+    type: Documentation
+  description: Tempus Next ingests patient data and applies AI to unstructured
+    elements, evaluating it against care guidelines to identify in near real time
+    patients who have deviated from the standard of care. It is deployed within
+    health-system data environments; no public developer API is documented.
+- aid: tempus-ai:tempus-ehr-integration
+  name: Tempus EHR Integration
+  tags:
+  - EHR
+  - HL7
+  - FHIR
+  - Interoperability
+  image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
+  humanURL: https://www.tempus.com/oncology/ehr-integration/
+  properties:
+  - url: https://www.tempus.com/oncology/ehr-integration/
+    type: Documentation
+  description: Tempus integrates genomic test ordering and results into clinical
+    workflows using near real-time connections (HL7, FHIR) and batch data exchange,
+    including an integration with Epic. These interfaces are provisioned per health
+    system by a Tempus integration team and are not exposed as a public, self-serve
+    API.
+- aid: tempus-ai:tempus-genomic-profiling
+  name: Tempus Genomic Profiling (xT / xR)
+  tags:
+  - Genomics
+  - NGS
+  - Molecular Diagnostics
+  image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
+  humanURL: https://www.tempus.com/oncology/genomic-profiling/
+  properties:
+  - url: https://www.tempus.com/oncology/genomic-profiling/
+    type: Documentation
+  description: Tempus xT and xR are DNA and RNA next-generation sequencing assays for
+    oncology. Results are returned through Tempus Hub and EHR integrations rather
+    than a documented public API.
+common:
+- type: GitHubOrganization
+  url: https://github.com/tempuslabs
+- type: LinkedIn
+  url: https://www.linkedin.com/company/tempuslabs
+- type: Website
+  url: https://www.tempus.com/
+- type: Documentation
+  url: https://www.tempus.com/
+- type: Plans
+  url: plans/tempus-ai-plans-pricing.yml
+- type: RateLimits
+  url: rate-limits/tempus-ai-rate-limits.yml
+- type: FinOps
+  url: finops/tempus-ai-finops.yml
+maintainers:
+- FN: Kin Lane
+  email: kin@apievangelist.com

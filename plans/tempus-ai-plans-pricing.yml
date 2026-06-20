@@ -1,0 +1,63 @@
+specification: API Commons Plans
+specificationVersion: '0.1'
+schema: https://raw.githubusercontent.com/api-evangelist/interface-research/main/schema/api-commons.yml#/$defs/Plans
+provider: Tempus AI
+providerId: tempus-ai
+created: '2026-06-20'
+modified: '2026-06-20'
+reconciled: false
+tags:
+- Precision Medicine
+- Genomics
+- Healthcare
+- Molecular Diagnostics
+- Oncology
+- Real-World Data
+- AI
+- Plans
+description: >-
+  Tempus AI does not publish public, self-serve API pricing. Its offerings are
+  sold through enterprise, life-sciences, and healthcare-provider channels:
+  genomic and molecular tests (e.g. xT / xR) are billed clinically through
+  payers and order workflows, the Lens real-world-data and AI platform is
+  licensed to biopharma under enterprise agreements, and clinical tools (Hub,
+  One, Next) are provisioned to health systems via contract and EHR
+  integration. There are no published Free / Developer / Pay-as-you-go API
+  tiers because no public API is offered.
+notes: >-
+  Access and commercial terms are negotiated directly with Tempus sales /
+  partnerships. No per-call, per-token, or subscription API pricing is publicly
+  documented. Reconcile only if Tempus launches a documented public API with
+  published rates.
+sources:
+- https://www.tempus.com/
+- https://www.tempus.com/life-sciences/lens/
+- https://www.tempus.com/oncology/ehr-integration/
+- https://www.tempus.com/order/
+plans:
+- id: tempus-ai-enterprise
+  name: Enterprise / Partner
+  type: enterprise
+  description: >-
+    Negotiated enterprise and partner agreements for life-sciences data and AI
+    (Lens), provider clinical tools (Hub, One, Next), genomic testing, and EHR
+    integration. Contact Tempus sales / partnerships.
+  entries:
+  - label: Enterprise Agreement
+    name: enterprise
+    type: flat
+    metric: contract
+    limit: -1
+    timeFrame: year
+    geo: global
+    unit: 1
+    price: contact sales
+    userMultiplied: false
+  elements:
+  - name: Lens Data and AI Platform
+  - name: Clinical Tools (Hub, One, Next)
+  - name: Genomic Profiling (xT / xR)
+  - name: EHR Integration (HL7 / FHIR)
+maintainers:
+- FN: Kin Lane
+  email: kin@apievangelist.com

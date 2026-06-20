@@ -1,0 +1,25 @@
+openapi: 3.0.1
+info:
+  title: Tempus AI
+  description: >-
+    Tempus AI (NASDAQ: TEM) is a precision medicine company. As of this writing
+    Tempus does not publish a self-serve, documented public developer API.
+    Its products - Lens, One, Hub, Next, ECG-AI, Pixel, the xT / xR genomic
+    profiling assays, and the Olivia consumer app - are delivered as enterprise
+    and clinical SaaS surfaced through web applications and EHR integrations
+    (HL7 / FHIR, including Epic) under partner agreements. No public REST
+    endpoints, base path, or machine-readable API reference are documented, so
+    this specification intentionally defines no paths. It exists to anchor the
+    Tempus AI catalog entry and will be expanded if and when Tempus publishes a
+    documented public API.
+  termsOfService: https://www.tempus.com/terms/
+  contact:
+    name: Tempus AI
+    url: https://www.tempus.com/contact/
+  version: '0.1'
+servers:
+  - url: https://www.tempus.com
+    description: Tempus AI public website (informational; not an API host).
+paths: {}
+components:
+  schemas: {}

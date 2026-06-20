@@ -1,0 +1,80 @@
+aid: tempus-ai
+name: Tempus AI
+review:
+  question: Does Tempus AI expose a documented public WebSocket or realtime streaming API?
+  answer: false
+  date: '2026-06-20'
+  reviewer: API Evangelist
+  asyncapiSpecCreated: false
+  asyncapiScopeNote: |
+    No AsyncAPI document was created. Tempus AI does not publish any documented
+    public WebSocket, Server-Sent Events (SSE), or other realtime streaming
+    API. There is no public, self-serve developer API surface to model at all,
+    so neither an OpenAPI path set nor an AsyncAPI channel set could be authored
+    from documented endpoints.
+findings:
+  summary: |
+    Tempus AI (tempus.com, NASDAQ: TEM), the precision-medicine and molecular
+    diagnostics company, does not publish a documented public developer API.
+    Its products - Lens (life-sciences real-world data + agentic AI), Tempus
+    One (clinical assistant), Hub (provider platform), Next (care-gap
+    identification), ECG-AI and Pixel (cardiology / radiology AI), the xT / xR
+    genomic profiling assays, and the Olivia consumer app - are delivered as
+    enterprise and clinical SaaS through web applications and EHR integrations.
+    Data and ordering integration is achieved with near real-time connections
+    (HL7, FHIR) and batch exchange, including an Epic integration, but these are
+    provisioned per health system / partner by a Tempus integration team rather
+    than offered as a public, self-serve API. No documented WebSocket, SSE, or
+    realtime streaming transport was found.
+
+    NOTE: A separate, unrelated company (Tempus Dynamics, docs.tempusresearch.com,
+    development@tempusdynamics.com) publishes a "Tempus Research API" for time
+    tracking / clinical research operations software. That is NOT Tempus AI and
+    was deliberately excluded from this catalog entry.
+  transports:
+    - protocol: REST
+      scheme: https
+      documented: false
+      note: No public REST API base URL or endpoint reference is documented for Tempus AI.
+    - protocol: SSE
+      scheme: https
+      documented: false
+      note: No Server-Sent Events streaming endpoint is documented.
+    - protocol: WebSocket
+      scheme: wss
+      documented: false
+      note: No WebSocket (ws:// or wss://) endpoint is documented in any Tempus AI product page.
+    - protocol: HL7 / FHIR
+      scheme: https
+      documented: partial
+      note: >-
+        Tempus uses HL7 and FHIR for EHR data exchange and results return, but
+        these interfaces are provisioned per integration under partner agreement
+        and are not published as a public, self-serve API.
+  endpointsConfirmedRest: []
+sources:
+  - url: https://www.tempus.com/
+    type: Website
+    note: Company and product overview; no developer API or API reference linked.
+  - url: https://www.tempus.com/life-sciences/lens/
+    type: Documentation
+    note: Lens is a licensed web platform (lens.tempus.ai); no public API documented.
+  - url: https://www.tempus.com/oncology/ehr-integration/
+    type: Documentation
+    note: Describes HL7 / FHIR and batch EHR integration provisioned by a Tempus team; not a public API.
+  - url: https://www.tempus.com/oncology/tempus-one/
+    type: Documentation
+    note: Tempus One clinical assistant; surfaced in apps and EHR workflows, no public API.
+  - url: https://github.com/tempuslabs
+    type: GitHubOrganization
+    note: Tempus Labs org hosts only a few archived internal-tooling repos; no public API SDK.
+actions:
+  asyncapiPath: null
+  apisYmlUpdated: true
+  reason: |
+    No public WebSocket, SSE, or any public REST API surface exists for Tempus
+    AI, so no AsyncAPI document was created and the OpenAPI specification was
+    left with an empty paths object. The apis.yml catalogs Tempus AI's product
+    surface with human URLs and documents, clearly noting that integration is
+    enterprise / EHR / partner-only and that no self-serve public API is
+    published.
