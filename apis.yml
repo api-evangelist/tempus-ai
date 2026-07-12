@@ -118,6 +118,8 @@ apis:
     oncology. Results are returned through Tempus Hub and EHR integrations rather
     than a documented public API.
 common:
+- type: DomainSecurity
+  url: security/tempus-ai-domain-security.yml
 - type: GitHubOrganization
   url: https://github.com/tempuslabs
 - type: LinkedIn
