@@ -70,11 +70,6 @@ Tempus Hub is the smart physician platform where providers order diagnostic test
 
 - [Documentation](https://www.tempus.com/oncology/ai-apps-suite/)
 
-### Tempus Next
-
-Tempus Next ingests patient data and applies AI to unstructured elements, evaluating it against care guidelines to identify in near real time patients who have deviated from the standard of care. It is deployed within health-system data environments; no public developer API is documented.
-
-- **Human URL:** [https://www.tempus.com/about-us/tempus-tech/next/](https://www.tempus.com/about-us/tempus-tech/next/)
 
 #### Tags
 
@@ -102,11 +97,6 @@ Tempus integrates genomic test ordering and results into clinical workflows usin
 
 - [Documentation](https://www.tempus.com/oncology/ehr-integration/)
 
-### Tempus Genomic Profiling (xT / xR)
-
-Tempus xT and xR are DNA and RNA next-generation sequencing assays for oncology. Results are returned through Tempus Hub and EHR integrations rather than a documented public API.
-
-- **Human URL:** [https://www.tempus.com/oncology/genomic-profiling/](https://www.tempus.com/oncology/genomic-profiling/)
 
 #### Tags
 
