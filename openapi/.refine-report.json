@@ -1,0 +1,14 @@
+{
+  "provider": "tempus-ai",
+  "sources": [
+    "tempus-ai-openapi.yml"
+  ],
+  "outputs": [],
+  "archived": [
+    "archived tempus-ai-openapi.yml"
+  ],
+  "errors": [],
+  "warnings": [],
+  "notes": [],
+  "skipped": []
+}
