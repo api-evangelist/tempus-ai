@@ -9,6 +9,17 @@ description: 'Tempus AI (NASDAQ: TEM) is a precision medicine company that has b
   for life sciences, cardiology and radiology AI (ECG-AI, Pixel), and a consumer health app (Olivia).
   Tempus does not currently publish a self-serve, documented public developer API; integrations are delivered
   through enterprise and EHR channels (HL7 / FHIR, e.g. Epic) under partner agreements.'
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: enterprise
   onboarding: unknown
