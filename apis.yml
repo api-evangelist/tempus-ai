@@ -74,6 +74,10 @@ apis:
   tags:
   - Clinical Assistant
   - Oncology
+  - Generative AI
+  tags_raw:
+  - Clinical Assistant
+  - Oncology
   - GenAI
   image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
   humanURL: https://www.tempus.com/oncology/tempus-one/
