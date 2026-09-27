@@ -41,6 +41,7 @@ tags:
 - Oncology
 - Real-World Data
 - Artificial Intelligence
+- Diagnostics
 tags_raw:
 - Precision Medicine
 - Genomics
@@ -49,6 +50,7 @@ tags_raw:
 - Oncology
 - Real-World Data
 - AI
+- Diagnostics
 created: '2026-06-20'
 modified: '2026-08-08'
 specificationVersion: '0.23'
@@ -56,6 +58,11 @@ apis:
 - aid: tempus-ai:tempus-lens
   name: Tempus Lens
   tags:
+  - Real-World Data
+  - Life Sciences
+  - AI Agents
+  - Multimodal Data
+  tags_raw:
   - Real-World Data
   - Life Sciences
   - Agentic AI
