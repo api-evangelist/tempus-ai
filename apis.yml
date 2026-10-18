@@ -111,6 +111,11 @@ apis:
 - aid: tempus-ai:tempus-ehr-integration
   name: Tempus EHR Integration
   tags:
+  - Electronic Health Records
+  - HL7
+  - FHIR
+  - Interoperability
+  tags_raw:
   - EHR
   - HL7
   - FHIR
