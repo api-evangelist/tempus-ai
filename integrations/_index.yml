@@ -155,3 +155,37 @@
     signal_note: 'self-filed paid membership: listing alone = standard-participant; hand-reviewed'
   status: not-a-workflow
   arazzo: null
+- slug: tempus-ai-clinicaltrials-gov-industry-trial-sponsors-and-collaborators
+  label: ClinicalTrials.gov (industry trial sponsors and collaborators)
+  partner_name: ClinicalTrials.gov (industry trial sponsors and collaborators)
+  category: Interventional trial sponsor / collaborator
+  type: register
+  channel: standard-directory
+  evidence: https://clinicaltrials.gov/study/NCT07250646
+  source: edge
+  relationship: standard-participant
+  contract_reference:
+    register: ClinicalTrials.gov API v2 (interventional, started >= 2021-01-01, industry lead sponsor or collaborator)
+    standard: null
+    spec_file: null
+    role: trial-collaborator+lead-sponsor
+    registered_name: Tempus AI
+    matched_domain: tempus.com
+    matched_by: domain
+    lead_sponsor: true
+    active_trial: true
+    latest_start: '2026-05-21'
+    trials_sample:
+    - NCT07250646
+    - NCT06911632
+    - NCT06511505
+    - NCT06099665
+    - NCT06051695
+    signal_note: 'PARTICIPATION only (a trial is not an approval): lead_sponsor, active_trial and latest_start are
+      per-edge signals; the number of trials is never counted'
+    detected_by: sweep-clinical-trial-sponsors.py
+    detected: '2026-10-21'
+    identity: wikidata Q127040202 'Tempus AI' P856 https://www.tempus.com/
+    identity_source: wikidata P856 (labelled provenance step; Kin 2026-10-15 decision 1)
+  status: not-a-workflow
+  arazzo: null
