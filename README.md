@@ -1,4 +1,4 @@
-# Tempus AI (tempus-ai)
+# Tempus AI
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -66,123 +66,112 @@
 
 Tempus AI (NASDAQ: TEM) is a precision medicine company that has built one of the world's largest libraries of de-identified clinical and molecular data, paired with an operating system to make that data accessible for diagnostics and research, starting with cancer. Its products span genomic profiling (xT / xR), AI-enabled clinical tools (Hub, One, Next), the Lens real-world data and agentic AI platform for life sciences, cardiology and radiology AI (ECG-AI, Pixel), and a consumer health app (Olivia). Tempus does not currently publish a self-serve, documented public developer API; integrations are delivered through enterprise and EHR channels (HL7 / FHIR, e.g. Epic) under partner agreements.
 
-**APIs.json:** [https://raw.githubusercontent.com/api-evangelist/tempus-ai/refs/heads/main/apis.yml](https://raw.githubusercontent.com/api-evangelist/tempus-ai/refs/heads/main/apis.yml)
+**Areas:** Precision Medicine · Genomics · Healthcare · Molecular Diagnostics · Oncology · Real-World Data · Artificial Intelligence · Diagnostics
 
-## Tags
+## Tempus AI on APIs.io
 
-- Precision Medicine
-- Genomics
-- Healthcare
-- Molecular Diagnostics
-- Oncology
-- Real-World Data
-- AI
+Everything profiled for Tempus AI is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/tempus-ai/](https://apis.io/providers/tempus-ai/)** — or go straight to one of the APIs or properties below.
 
-## Timestamps
+### APIs (4)
 
-- **Created:** 2026-06-20
-- **Modified:** 2026-06-20
+- [Tempus Lens](https://apis.io/apis/tempus-ai/tempus-lens/) — Lens is Tempus' real-world multimodal data and agentic AI platform for life sciences and oncology drug development, providing exploration of one of the…
+- [Tempus One](https://apis.io/apis/tempus-ai/tempus-one/) — Tempus One is an AI clinical assistant giving oncology providers voice and text access to patient data, clinical-trial options, and treatment guidelines at…
+- [Tempus Hub](https://apis.io/apis/tempus-ai/tempus-hub/) — Tempus Hub is the smart physician platform where providers order diagnostic tests, get clinical context on a patient, and receive and review testing…
+- [Tempus EHR Integration](https://apis.io/apis/tempus-ai/tempus-ehr-integration/) — Tempus integrates genomic test ordering and results into clinical workflows using near real-time connections (HL7, FHIR) and batch data exchange, including…
 
-## APIs
+### Published properties
 
-### Tempus Lens
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-Lens is Tempus' real-world multimodal data and agentic AI platform for life sciences and oncology drug development, providing exploration of one of the world's largest de-identified clinical and molecular datasets (millions of patient records). It is delivered as a web application at lens.tempus.ai under enterprise agreement; no self-serve public API is documented.
+#### Collections (1)
 
-- **Human URL:** [https://www.tempus.com/life-sciences/lens/](https://www.tempus.com/life-sciences/lens/)
+Postman and Open Collection request collections.
 
-#### Tags
+- [Tempus AI](https://apis.io/collections/tempus-ai/open-tempus-ai/)
 
-- Real-World Data
-- Life Sciences
-- Agentic AI
-- Multimodal Data
+#### Security (1)
 
-#### Properties
+Authentication, trust centre, and vulnerability disclosure.
 
-- [Documentation](https://www.tempus.com/life-sciences/lens/)
+- [Tempus Ai Domain Security](https://apis.io/security/tempus-ai/tempus-ai-domain-security/)
 
-### Tempus One
+#### Plans and pricing (1)
 
-Tempus One is an AI clinical assistant giving oncology providers voice and text access to patient data, clinical-trial options, and treatment guidelines at the point of care. It is surfaced inside Tempus applications and partner EHR workflows; no public developer API is documented.
+Published plans, tiers and prices.
 
-- **Human URL:** [https://www.tempus.com/oncology/tempus-one/](https://www.tempus.com/oncology/tempus-one/)
+- [Tempus Ai Plans Pricing](https://apis.io/plans/tempus-ai/tempus-ai-plans-pricing/)
 
-#### Tags
+#### Rate limits (1)
 
-- Clinical Assistant
-- Oncology
-- GenAI
+Published request limits.
 
-#### Properties
+- [Tempus Ai Rate Limits](https://apis.io/rate-limits/tempus-ai/tempus-ai-rate-limits/)
 
-- [Documentation](https://www.tempus.com/oncology/tempus-one/)
+#### FinOps (1)
 
-### Tempus Hub
+What the API costs to run, by operation.
 
-Tempus Hub is the smart physician platform where providers order diagnostic tests, get clinical context on a patient, and receive and review testing results. Access is via the Hub web application and EHR integration; no public developer API is documented.
+- [Tempus Ai Finops](https://apis.io/finops/tempus-ai/tempus-ai-finops/)
 
-- **Human URL:** [https://www.tempus.com/oncology/ai-apps-suite/](https://www.tempus.com/oncology/ai-apps-suite/)
+## Where to find this API
 
-#### Tags
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
-- Provider Platform
-- Test Ordering
-- Results
-
-#### Properties
-
-- [Documentation](https://www.tempus.com/oncology/ai-apps-suite/)
-
-
-#### Tags
-
-- Care Gap Identification
-- Clinical AI
-
-#### Properties
-
-- [Documentation](https://www.tempus.com/about-us/tempus-tech/next/)
-
-### Tempus EHR Integration
-
-Tempus integrates genomic test ordering and results into clinical workflows using near real-time connections (HL7, FHIR) and batch data exchange, including an integration with Epic. These interfaces are provisioned per health system by a Tempus integration team and are not exposed as a public, self-serve API.
-
-- **Human URL:** [https://www.tempus.com/oncology/ehr-integration/](https://www.tempus.com/oncology/ehr-integration/)
-
-#### Tags
-
-- EHR
-- HL7
-- FHIR
-- Interoperability
-
-#### Properties
-
-- [Documentation](https://www.tempus.com/oncology/ehr-integration/)
-
-
-#### Tags
-
-- Genomics
-- NGS
-- Molecular Diagnostics
-
-#### Properties
-
-- [Documentation](https://www.tempus.com/oncology/genomic-profiling/)
-
-## Common Properties
-
-- [GitHub Organization](https://github.com/tempuslabs)
-- [LinkedIn](https://www.linkedin.com/company/tempuslabs)
 - [Website](https://www.tempus.com/)
 - [Documentation](https://www.tempus.com/)
-- [Plans](plans/tempus-ai-plans-pricing.yml)
-- [Rate Limits](rate-limits/tempus-ai-rate-limits.yml)
-- [Fin Ops](finops/tempus-ai-finops.yml)
+- [Getting started](https://www.tempus.com/providers/)
+- [Blog](https://www.tempus.com/news/)
+- [GitHub](https://github.com/tempuslabs)
 
-## Maintainers
+## API Evangelist rating
 
-**FN:** Kin Lane
-**Email:** kin@apievangelist.com
+**Kin Score 9.7** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 64.3 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 7.9 |
+| Developer ergonomics | 11.9 |
+| Access clarity | 5.3 |
+
+**Agent readiness 0.6** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 4.4** — Health
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/tempus-ai/](https://apis.io/providers/tempus-ai/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Tempus AI: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/tempus-ai/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
